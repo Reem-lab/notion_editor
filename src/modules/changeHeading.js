@@ -23,8 +23,7 @@ const addH1tag = (input, tagType) => {
   removePopup();
 };
 
-const handleInput = (input = document.getElementById('heading')) => {
-  // If the first character is /, show the popup, else remove it
+const changeHeading = (input = document.getElementById('heading')) => {
   input.addEventListener('input', () => {
     if (input.textContent[0] === '/') {
       addPopup(input);
@@ -41,9 +40,9 @@ const handleInput = (input = document.getElementById('heading')) => {
       if (text[0] === '/' && text[1] === '1') addH1tag(input, 'h1');
       if (text === '') input.removeAttribute('placeholder');
       const newInput = addHeader(input, input.id);
-      handleInput(newInput);
+      changeHeading(newInput);
     }
   });
 };
 
-export default handleInput;
+export default changeHeading;

@@ -1,4 +1,4 @@
 import './index.css';
-import handleInput from './modules/handleInput.js';
+import changeHeading from './modules/changeHeading.js';
 
-handleInput();
+changeHeading();
