@@ -15,7 +15,7 @@
 
 <!-- ## Deploy Demo 🚀 -->
 
-
+[Live Demo](https://reem-lab.github.io/notion_editor/)
 
 
 
@@ -24,14 +24,16 @@
 
 In the project directory, you can run:
 
-### open `live server`
+### npm install
+
+### npm run start
 
 
 
 
 ## Built With
 
-- Languages: _**HTML, CSS, JavaScript**_
+- Languages: _**HTML, CSS, JavaScript, webpack**_
 - Frameworks: _**N/A**_
 - Technologies used: _**GIT, GITHUB, LINTERS**_
 - deployement: _**GitHub-pages**_
@@ -42,6 +44,7 @@ In the project directory, you can run:
  - Pick up colors
  - ionIcons
  - Figma
+ - webpack
  
  <!-- - Test by jest -->
 
